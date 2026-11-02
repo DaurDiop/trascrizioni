@@ -14,7 +14,8 @@ Questo ramo funziona anche su Fedora (PipeWire). L'audio si cattura con `parec`:
 l'«Audio del PC» è il *monitor* dell'uscita scelta (nessun cavo virtuale). VB-CABLE non serve.
 
 ```bash
-sudo dnf install python3 python3-pip pulseaudio-utils liberation-sans-fonts
+sudo dnf install python3 python3-pip pulseaudio-utils liberation-sans-fonts   # Fedora
+sudo apt install python3-venv python3-pip pulseaudio-utils fonts-liberation   # Ubuntu/Mint
 ./avvia_dashboard.sh
 ```
 
